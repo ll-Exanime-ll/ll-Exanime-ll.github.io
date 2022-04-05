@@ -12,6 +12,11 @@
 
 /* BetterBadges */
 @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+:root{
+    --badge-size: 18px;
+    --badge-margin: 2px;
+    --badges-everywhere-size: 15px;
+}
 
 /* Color Discord */
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -25,8 +30,7 @@
     background-repeat: no-repeat;
     background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
     background-size: cover;
-    background-position: center;
-    	
+    background-position: center; 	
 }
 
 /* Modify icon Discord -> Remove fond */
