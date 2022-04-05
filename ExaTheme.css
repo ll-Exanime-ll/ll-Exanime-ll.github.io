@@ -1,17 +1,18 @@
-
-  @name ExaTheme
-  @author Exánime
-  @version 1.0
-  @description ExaTheme.
-  @authorLink https://github.com/ll-Exanime-ll
-  @website https://discord-exabot.glitch.me/
-  @source https://github.com/ll-Exanime-ll/DiscordBetter
-  @donate paypal.me/ExanimeTV
-  @updateUrl https://raw.githubusercontent.com/ll-Exanime-ll/DiscordBetter/main/Themes/ExaTheme.css
-
+/**
+ * @name ExaTheme
+ * @author Exánime
+ * @version 1.0
+ * @description ExaTheme.
+ * @authorLink https://github.com/ll-Exanime-ll
+ * @website https://discord-exabot.glitch.me/
+ * @source https://github.com/ll-Exanime-ll/DiscordBetter
+ * @donate paypal.me/ExanimeTV
+ * @updateUrl https://ll-exanime-ll.github.io/ExaTheme.css
+ */	
 
 /* Color Discord */
 @import "https://nyri4.github.io/Discolored/main.css";
+@import url('https://nyri4.github.io/donators/donators.css');
 
 /* BetterBadges */
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
