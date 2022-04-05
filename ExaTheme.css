@@ -16,14 +16,6 @@
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
-/* BetterBadges */
-@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
-:root{
-    --badge-size: 18px;
-    --badge-margin: 2px;
-    --badges-everywhere-size: 15px;
-}
-
 /* Modify chat emoji */
 .sprite-2lxwfc {
 background-position: 0 !important;
