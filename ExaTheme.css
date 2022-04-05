@@ -16,19 +16,8 @@
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
-/* RadialStatus */
-@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
-
 /* BetterBadges */
 @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
-
-/* Modify chat emoji */
-.sprite-2lxwfc {
-background-position: 0 !important;
-background-size: contain !important;
-filter: grayscale(0) !important;
-background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
-}
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
