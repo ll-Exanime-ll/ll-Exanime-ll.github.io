@@ -2,7 +2,7 @@
  * @name ExaTheme
  * @author Exánime
  * @version 1.0
- * @description ExaTheme.
+ * @description Color Discord, BetterBadges,settings/deafen/mute buttons animated, Icon Discord animated and Remove welcome defaults.
  * @authorLink https://github.com/ll-Exanime-ll
  * @website https://discord-exabot.glitch.me
  * @source https://github.com/ll-Exanime-ll/DiscordBetter/blob/main/Themes/ExaTheme.css
@@ -20,6 +20,30 @@
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
 };
+
+/* Modify chat emoji */
+.sprite-2lxwfc {
+background-position: 0 !important;
+background-size: contain !important;
+filter: grayscale(0) !important;
+background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
+}
+
+/* Modify icon Discord */
+.homeIcon-r0w4ny path {display:none}
+.homeIcon-r0w4ny {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
+    background-size:contain;
+    background-position:center;
+    transform: translate(-1.5px, 0px) scale(2.6);
+	
+}
+
+/* Remove fond */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    background-color: transparent !important;
+}
 
 /* settings/deafen/mute buttons animated */
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
@@ -45,30 +69,6 @@
 .panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
     opacity: 100% !important;
     width: 32px;
-}
-
-/* Modify chat emoji */
-.sprite-2lxwfc {
-background-position: 0 !important;
-background-size: contain !important;
-filter: grayscale(0) !important;
-background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
-}
-
-/* Modify icon Discord */
-.homeIcon-r0w4ny path {display:none}
-.homeIcon-r0w4ny {
-    background-repeat: no-repeat;
-    background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
-    background-size:contain;
-    background-position:center;
-    transform: translate(-1.5px, 0px) scale(2.6);
-	
-}
-
-/* Remove fond */
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
-    background-color: transparent !important;
 }
 
 /* Icon Discord animated */
