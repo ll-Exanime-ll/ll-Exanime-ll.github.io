@@ -16,6 +16,14 @@ Theme: https://github.com/ll-Exanime-ll/DiscordBetter/blob/main/Themes/ExaTheme.
     --badges-everywhere-size: 15px;
 }
 
+/* background Discord */
+:root {
+    --background-image: url('https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/cuarto.jpg');
+    --opacity: .95;
+}
+
+:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
+
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
 .homeIcon-r0w4ny {
