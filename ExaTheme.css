@@ -2,13 +2,13 @@
  * @name ExaTheme
  * @author Exánime
  * @version 1.0
- * @description Color Discord, BetterBadges, settings/deafen/mute buttons animated, Icon Discord animated and Remove welcome defaults.
+ * @description Color Discord, BetterBadges, Icon Discord TS3, settings/deafen/mute buttons animated, Icon Discord animated and Remove welcome defaults.
  * @authorLink https://github.com/ll-Exanime-ll
  * @website https://discord-exabot.glitch.me
  * @source https://github.com/ll-Exanime-ll/DiscordBetter/blob/main/Themes/ExaTheme.css
  * @donate https://www.paypal.me/ExanimeTV
  * @updateUrl https://ll-exanime-ll.github.io/ExaTheme.css
- */	
+ */
 
 /* Color Discord */
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -20,14 +20,6 @@
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
 };
-
-/* Modify chat emoji */
-.sprite-2lxwfc {
-background-position: 0 !important;
-background-size: contain !important;
-filter: grayscale(0) !important;
-background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
-}
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
