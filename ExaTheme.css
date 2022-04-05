@@ -13,6 +13,12 @@
 /* Color Discord */
 @import url(https://nyri4.github.io/Discolored/main.css);
 
+/* SettingsModal */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+
+/* RadialStatus */
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+
 /* BetterBadges */
 @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
 :root{
@@ -20,12 +26,6 @@
     --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
     --badges-everywhere-size: 15px; /*default = 15px*/
 };
-
-/* SettingsModal */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
-
-/* RadialStatus */
-@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
