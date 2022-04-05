@@ -19,7 +19,20 @@
 /* BetterBadges */
 @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
 
+/* Modify icon Discord */
+.homeIcon-r0w4ny path {display:none}
+.homeIcon-r0w4ny {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
+    background-size:contain;
+    background-position:center;
+    transform: translate(-1.5px, 0px) scale(2.6);	
+}
 
+/* Modify icon Discord -> Remove fond */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    background-color: transparent !important;
+}
 
 /* settings/deafen/mute buttons animated */
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
