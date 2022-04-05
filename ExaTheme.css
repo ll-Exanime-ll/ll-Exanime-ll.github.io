@@ -6,6 +6,17 @@ filter: grayscale(0) !important;
 background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
 }
 
+/* BetterBadges */
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+:root{
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
+};
+
+/* Color Discord */
+@import "https://nyri4.github.io/Discolored/main.css";
+
 /* settings/deafen/mute buttons animated */
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
 .button-12Fmur {transition: 0.2s;}
@@ -73,14 +84,3 @@ background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd
     opacity: 100% !important;
     width: 32px;
 }
-
-/* BetterBadges */
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
-:root{
-    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
-    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
-    --badges-everywhere-size: 15px; /*default = 15px*/
-};
-
-/* Color Discord */
-@import "https://nyri4.github.io/Discolored/main.css";
