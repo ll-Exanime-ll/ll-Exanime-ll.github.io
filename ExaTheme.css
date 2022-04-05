@@ -10,14 +10,19 @@
  * @updateUrl https://ll-exanime-ll.github.io/ExaTheme.css
  */
 
-/* BetterBadges */
-@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
-
 /* Color Discord */
 @import url(https://nyri4.github.io/Discolored/main.css);
 
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+
+/* BetterBadges */
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+:root{
+    --badge-size: 18px;
+    --badge-margin: 2px;
+    --badges-everywhere-size: 15px;
+}
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
