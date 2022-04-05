@@ -42,16 +42,16 @@
 /* Icon Discord animated */
 @keyframes spin {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translate(-1.5px, 0px) scale(2.6);
     }
     20% {
-        transform: rotate(-20deg);
+        transform: rotate(-20deg) translate(-1.5px, 0px) scale(2.6);
     }
     70% {
-        transform: rotate(380deg);
+        transform: rotate(380deg) translate(-1.5px, 0px) scale(2.6);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(360deg) translate(-1.5px, 0px) scale(2.6);
     }
 }
 
