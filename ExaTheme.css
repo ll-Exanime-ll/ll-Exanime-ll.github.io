@@ -11,13 +11,23 @@
  */
 
 /* Color Discord */
-@import url(https://nyri4.github.io/Discolored/main.css);
+@import "https://nyri4.github.io/Discolored/main.css";
 
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+:root {
+	--settingsmodalbackground: 	transparent;
+	--settingsmodalwidth: 		960px;
+	--settingsmodalheight: 		80vh;
+}
 
 /* BetterBadges */
 @import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+:root{
+    --badge-size: 18px;
+    --badge-margin: 2px;
+    --badges-everywhere-size: 15px;
+}
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
