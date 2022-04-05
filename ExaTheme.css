@@ -9,14 +9,6 @@ background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd
 /* Color Discord */
 @import "https://nyri4.github.io/Discolored/main.css";
 
-/* BetterBadges */
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
-:root{
-    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
-    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
-    --badges-everywhere-size: 15px; /*default = 15px*/
-};
-
 /* settings/deafen/mute buttons animated */
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
 .button-12Fmur {transition: 0.2s;}
