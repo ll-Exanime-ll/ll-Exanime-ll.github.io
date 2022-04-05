@@ -2,7 +2,7 @@
  * @name ExaTheme
  * @author Exánime
  * @version 1.0
- * @description Color Discord, BetterBadges, Icon Discord TS3, settings/deafen/mute buttons animated, Icon Discord animated and Remove welcome defaults.
+ * @description Color Discord, BetterBadges, SettingsModal, RadialStatus, Icon Discord TS3, settings/deafen/mute buttons animated, Icon Discord animated and Remove welcome defaults.
  * @authorLink https://github.com/ll-Exanime-ll
  * @website https://discord-exabot.glitch.me
  * @source https://github.com/ll-Exanime-ll/DiscordBetter/blob/main/Themes/ExaTheme.css
@@ -21,6 +21,40 @@
     --badges-everywhere-size: 15px; /*default = 15px*/
 };
 
+/* SettingsModal */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+
+:root {
+	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+}
+
+/* RadialStatus */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+:root {
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
 .homeIcon-r0w4ny {
@@ -32,7 +66,7 @@
 	
 }
 
-/* Remove fond */
+/* Modify icon Discord -> Remove fond */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
     background-color: transparent !important;
 }
