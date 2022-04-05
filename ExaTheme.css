@@ -2,6 +2,16 @@
 Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/ExaTheme.css
 */
 
+/* background Discord */
+@import url(https://dav1312.github.io/BD/SimpleBackground/main.css);
+:root {
+    --background: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/cuarto.jpg);
+    --chat-transparency: 0.8;
+    --sides-transparency: 0.8;
+    --sides-blur: 5px;
+}
+:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
+
 /* Color Discord */
 @import url(https://nyri4.github.io/Discolored/main.css);
 
@@ -20,16 +30,6 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
     --badge-margin: 2px;
     --badges-everywhere-size: 15px;
 }
-
-/* background Discord */
-@import url(https://dav1312.github.io/BD/SimpleBackground/main.css);
-:root {
-    --background: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/cuarto.jpg);
-    --chat-transparency: 0.8;
-    --sides-transparency: 0.8;
-    --sides-blur: 5px;
-}
-:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
 
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
