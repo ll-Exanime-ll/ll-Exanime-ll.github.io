@@ -2,8 +2,8 @@
 Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/ExaTheme.css
 */
 
-/* background Discord */
-@import url(https://dav1312.github.io/BD/SimpleBackground/main.css);
+/* Background Discord */
+@import url(https://ll-exanime-ll.github.io/BetterDiscord/crs/themecolor.css);
 :root {
     --background: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/cuarto.jpg);
     --chat-transparency: 0.8;
@@ -13,10 +13,11 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 :root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
 
 /* Color Discord */
-@import url(https://nyri4.github.io/Discolored/main.css);
+@import url(https://ll-exanime-ll.github.io/BetterDiscord/crs/themecolor.css);
 
 /* SettingsModal */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import url(https://ll-exanime-ll.github.io/BetterDiscord/crs/visual.settings.css);
+/*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);*/
 :root {
     --settingsmodalbackground: transparent;
     --settingsmodalwidth: 1000px;
