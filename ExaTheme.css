@@ -16,6 +16,14 @@
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
+/* BetterBadges */
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+:root{
+    --badge-size: 18px;
+    --badge-margin: 2px;
+    --badges-everywhere-size: 15px;
+}
+
 /* Modify chat emoji */
 .sprite-2lxwfc {
 background-position: 0 !important;
@@ -29,7 +37,7 @@ background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd
 .homeIcon-r0w4ny {
     background-repeat: no-repeat;
     background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
-    background-size: center;
+    background-size: cover;
     background-position: center;
     transform: translate(-1.5px, 0px) scale(2.6);
 }
