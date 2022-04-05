@@ -1,0 +1,75 @@
+/* Modify chat emoji */
+.sprite-2lxwfc {
+background-position: 0 !important;
+background-size: contain !important;
+filter: grayscale(0) !important;
+background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
+}
+
+/* settings/deafen/mute buttons animated */
+.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
+.button-12Fmur {transition: 0.2s;}
+.button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
+@keyframes UserModalButtons {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+ .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+    opacity: 0% !important;
+    width: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
+
+/* Modify icon Discord */
+.homeIcon-r0w4ny path {display:none}
+.homeIcon-r0w4ny {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
+    background-size:contain;
+    background-position:center;
+    transform: translate(-1.5px, 0px) scale(2.6);
+	
+}
+
+/* Remove fond */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    background-color: transparent !important;
+}
+
+/* Icon Discord animated */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) translate(-1.5px, 0px) scale(2.6);
+    }
+    20% {
+        transform: rotate(-20deg) translate(-1.5px, 0px) scale(2.6);
+    }
+    70% {
+        transform: rotate(380deg) translate(-1.5px, 0px) scale(2.6);
+    }
+    100% {
+        transform: rotate(360deg) translate(-1.5px, 0px) scale(2.6);
+    }
+}
+
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+    animation: spin 0.8s ease;
+}
+
+/* Remove welcome defaults */
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
