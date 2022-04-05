@@ -24,8 +24,8 @@
 .homeIcon-r0w4ny {
     background-repeat: no-repeat;
     background-image: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/ts3.png);
-    background-size:contain;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     transform: translate(-1.5px, 0px) scale(2.6);	
 }
 
