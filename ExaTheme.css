@@ -13,7 +13,7 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 :root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
 
 /* Color Discord */
-@import url(https://ll-exanime-ll.github.io/ThemeColor.css);
+@import url(https://ll-exanime-ll.github.io/VisualColor.css);
 
 /* SettingsModal */
 @import url(https://ll-exanime-ll.github.io/VisualSettings.css);
