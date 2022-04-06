@@ -13,10 +13,10 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 :root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
 
 /* Color Discord */
-@import url(https://ll-exanime-ll.github.io/VisualColor.css);
+@import url(https://nyri4.github.io/Discolored/main.css);
 
 /* SettingsModal */
-@import url(https://ll-exanime-ll.github.io/VisualSettings.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 :root {
     --settingsmodalbackground: transparent;
     --settingsmodalwidth: 1000px;
@@ -24,7 +24,7 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 }
 
 /* BetterBadges */
-@import url(https://ll-exanime-ll.github.io/BetterBadges.css);
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
 :root{
     --badge-size: 18px;
     --badge-margin: 2px;
