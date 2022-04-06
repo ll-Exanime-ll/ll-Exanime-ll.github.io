@@ -5,6 +5,8 @@
     --sides-transparency: 0.8;
     --sides-blur: 5px;
 }
+:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
+
 .theme-dark {
 	--color-primary:54,57,63;
 	--color-secondary:47,49,54;
