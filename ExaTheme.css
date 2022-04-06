@@ -3,7 +3,7 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 */
 
 /* Background Discord */
-@import url(https://ll-exanime-ll.github.io/BetterDiscord/crs/themecolor.css);
+@import url(https://ll-exanime-ll.github.io/background.discord.css);
 :root {
     --background: url(https://cdn.glitch.global/7cee5634-e2fb-415f-b3dd-3679a885efd9/cuarto.jpg);
     --chat-transparency: 0.8;
@@ -13,7 +13,7 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 :root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
 
 /* Color Discord */
-@import url(https://nyri4.github.io/Discolored/main.css);
+@import url(https://ll-exanime-ll.github.io/themecolor.css);
 
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
@@ -24,7 +24,7 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
 }
 
 /* BetterBadges */
-@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+@import url(https://ll-exanime-ll.github.io/visual.settings.css);
 :root{
     --badge-size: 18px;
     --badge-margin: 2px;
