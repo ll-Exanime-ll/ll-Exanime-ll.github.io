@@ -2,11 +2,11 @@
 Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/ExaTheme/ExaTheme.css
 */
 
-/* Color Discord */
-@import url(https://nyri4.github.io/Discolored/main.css);
-
 /* Dark Add Server Modal */
 @import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+
+/* Color Discord */
+@import url(https://nyri4.github.io/Discolored/main.css);
 
 /* SettingsModal */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
