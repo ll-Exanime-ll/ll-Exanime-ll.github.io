@@ -21,6 +21,9 @@ Theme download: https://github.com/ll-Exanime-ll/BetterDiscord/blob/main/Themes/
     --badges-everywhere-size: 15px;
 }
 
+/* Dark Add Server Modal */
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+
 /* Modify icon Discord */
 .homeIcon-r0w4ny path {display:none}
 .homeIcon-r0w4ny {
