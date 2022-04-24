@@ -67,6 +67,11 @@ filter: grayscale(0) !important;
 background-image: url(https://cdn.glitch.com/7cee5634-e2fb-415f-b3dd-3679a885efd9%2Fleyendas.png);
 }
 
+/* Hide User TAG */
+.subtext-2HDqJ7{
+  color: transparent !important;
+}
+
 /* settings/deafen/mute buttons animated */
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
 .button-12Fmur {transition: 0.2s;}
